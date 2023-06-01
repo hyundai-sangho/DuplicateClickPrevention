@@ -6,7 +6,6 @@ require_once "vendor/autoload.php";
 /* php dotenv 사용법 */
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
-
 class Database
 {
   private $host;
